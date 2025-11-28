@@ -1,14 +1,14 @@
 {
   "id": 12,
-  "slug": "fatoni-abdullah-l200230159",
+  "slug": "fatoni-abdullah-luthfi-l200230159",
   "profile": {
-    "full_name": "Fatoni Abdullah Luthfi", 
-    "nim": "L200230159", 
+    "full_name": "Fatoni Abdullah Luthfi",
+    "nim": "L200230159",
     "prodi": "Teknik Informatika",
     "angkatan": "2023",
     "photo_url": "/img/profil.jpg",
-    "headline": "Fullstack Web Developer | React & Laravel Enthusiast",
-    "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack dan Data Analyst.",
+    "headline": "Fullstack Web Developer | PHP & Laravel Enthusiast",
+    "short_bio": "Mahasiswa Informatika UMS dengan fokus pada pengembangan web fullstack (PHP/Laravel & JavaScript), serta pengalaman proyek web, game sederhana, dan bisnis dropshipper.",
     "location": "Sukoharjo, Jawa Tengah",
     "portfolio_url": "https://website-personal-flax.vercel.app/",
     "views_count": 127
@@ -18,9 +18,9 @@
       "id": 1,
       "name": "ReactJS",
       "category": "technical",
-      "level": "advanced",
-      "is_main": true,
-      "years_of_experience": 2,
+      "level": "beginner",
+      "is_main": false,
+      "years_of_experience": 1,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
@@ -28,33 +28,72 @@
       "name": "Laravel",
       "category": "technical",
       "level": "intermediate",
-      "is_main": true,
-      "years_of_experience": 1,
+      "is_main": false,
+      "years_of_experience": 2,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
     },
     {
       "id": 3,
       "name": "Tailwind CSS",
       "category": "technical",
-      "level": "intermediate",
+      "level": "beginner",
       "is_main": false,
+      "years_of_experience": 1,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
     },
     {
       "id": 4,
       "name": "MySQL",
       "category": "technical",
-      "level": "advanced",
+      "level": "intermediate",
       "is_main": false,
+      "years_of_experience": 2,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
     },
     {
       "id": 5,
       "name": "Bootstrap",
       "category": "technical",
-      "level": "advanced",
+      "level": "beginner",
       "is_main": false,
+      "years_of_experience": 1,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    },
+    {
+      "id": 6,
+      "name": "HTML5",
+      "category": "technical",
+      "level": "advanced",
+      "is_main": true,
+      "years_of_experience": 3,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+      "id": 7,
+      "name": "PHP",
+      "category": "technical",
+      "level": "intermediate",
+      "is_main": true,
+      "years_of_experience": 2,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+    },
+    {
+      "id": 8,
+      "name": "CSS3",
+      "category": "technical",
+      "level": "intermediate",
+      "is_main": false,
+      "years_of_experience": 3,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+      "id": 9,
+      "name": "Javascript",
+      "category": "technical",
+      "level": "beginner",
+      "is_main": false,
+      "years_of_experience": 1,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
     }
   ],
   "experiences": [
@@ -68,7 +107,7 @@
       "is_current": false,
       "description": "Proyek Web Development (PKL – PT Git Solution Yogyakarta) | Dikembangkan saat saya menempuh pendidikan SMK kelas 2 sebagai bagian dari Praktik Kerja Lapangan. Dalam proyek ini, saya membangun aplikasi berbasis web dengan memanfaatkan Laravel sebagai framework backend, MySQL sebagai sistem basis data, serta HTML dan Bootstrap untuk menciptakan antarmuka yang responsif dan modern.",
       "technologies": ["HTML", "Laravel", "Bootstrap", "MySQL"],
-      "image_url": "/img/projek1.jpg" 
+      "image_url": "/img/projek1.jpg"
     },
     {
       "id": 102,
@@ -89,7 +128,7 @@
       "experience_type": "project",
       "start_date": "2022-10-20",
       "end_date": "2022-10-30",
-      "is_current": true,
+      "is_current": false,
       "description": "Website Laporan Masyarakat (UKK – SMK Muhammadiyah 1 Sukoharjo) | Dikembangkan saat saya menempuh pendidikan SMK kelas 3 sebagai proyek Uji Kompetensi Keahlian. Website ini memfasilitasi pelaporan masyarakat secara online dengan fitur input laporan dan pengelolaan data oleh admin. Proyek dibangun menggunakan PHP, HTML, dan Bootstrap, serta didukung oleh MySQL sebagai basis data untuk pengolahan dan penyimpanan data laporan.",
       "technologies": ["HTML", "PHP", "Bootstrap", "MySQL"],
       "image_url": "/img/projek2.png"
@@ -101,7 +140,7 @@
       "experience_type": "project",
       "start_date": "2023-11-10",
       "end_date": "2023-11-20",
-      "is_current": true,
+      "is_current": false,
       "description": "Zombie Game (Proyek Mata Kuliah Pemrograman Visual) | Proyek tim yang dikembangkan pada semester 1 untuk memenuhi tugas mata kuliah Pemrograman Visual. Game ini dibuat menggunakan Java dan platform Greenfoot, dengan fokus pada logika permainan dasar, kontrol karakter, serta interaksi objek dalam lingkungan 2D.",
       "technologies": ["Java", "Greenfoot"],
       "image_url": "/img/projek4.png"
@@ -112,10 +151,10 @@
       "organization": "Universitas Muhammadiyah Surakarta",
       "experience_type": "project",
       "start_date": "2024-09-20",
-      "end_date": "2024-09-31",
-      "is_current": true,
-      "description": "Sistem Informasi Artikel Edukasi Bertema Kisah Nabi Luth dan Homoseksualitas (Mata Kuliah Islam dan Ipteks) | Dikembangkan pada semester 3 sebagai proyek mata kuliah Islam dan Ipteks. Website ini menyajikan artikel edukatif mengenai isu sosial melalui perspektif kisah Nabi Luth, dilengkapi dengan pengelolaan konten yang terstruktur. Proyek dibangun menggunakan PHP dan Bootstrap untuk tampilan antarmuka yang responsif.",
-      "technologies": ["PHP", "Bootstrap"],
+      "end_date": "2024-09-30",
+      "is_current": false,
+      "description": "Sistem Informasi Artikel Edukasi Bertema Kisah Nabi Luth dan Homoseksualitas (Mata Kuliah Islam dan Ipteks) | Dikembangkan pada semester 3 sebagai proyek mata kuliah Islam dan Ipteks. Website ini menyajikan artikel edukatif mengenai isu sosial melalui perspektif kisah Nabi Luth, dengan fitur pengelolaan konten yang terstruktur. Proyek dibangun menggunakan PHP untuk pemrosesan data, HTML dan Bootstrap untuk antarmuka pengguna yang responsif dan mudah digunakan.",
+      "technologies": ["HTML", "PHP", "Bootstrap"],
       "image_url": "/img/projek3.png"
     },
     {
@@ -125,7 +164,7 @@
       "experience_type": "project competition",
       "start_date": "2024-06-10",
       "end_date": "2024-06-20",
-      "is_current": true,
+      "is_current": false,
       "description": "ECOhouse – Website Pengelolaan Sampah (Lomba Web Development FESTIDA 2024) | Proyek tim yang dikembangkan pada semester 3 untuk mengikuti kompetisi Web Development FESTIDA 2024 di Universitas Darussalam Gontor. Website ini dirancang sebagai platform digital untuk mendukung pengelolaan sampah secara efisien. Dikembangkan menggunakan Laravel untuk backend, HTML dan Bootstrap untuk antarmuka pengguna yang responsif, serta MySQL sebagai basis data utama.",
       "technologies": ["HTML", "PHP", "Bootstrap"],
       "image_url": "/img/projek5.png"
