@@ -40,12 +40,40 @@ return (
 
             <div
                 className="flex-1 ml-0 md:ml-12 bg-white border border-gray-100 p-6 rounded-2xl hover:shadow-lg transition-all duration-300 hover:border-blue-100 hover:-translate-y-1">
-                <div className="flex flex-col md:flex-row md:items-start justify-between gap-4 mb-4">
-                    <div>
-                        <h3 className="text-lg font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                            {exp.title}
-                        </h3>
-                        <div className="text-gray-600 font-medium">{exp.organization}</div>
+                <div className="flex flex-col sm:flex-row gap-4 mb-4">
+
+                    <div className="flex-shrink-0">
+                        {exp.image_url ? (
+                        <img src={exp.image_url} alt={exp.title}
+                            className="w-16 h-16 object-cover rounded-lg border border-gray-200 shadow-sm"
+                            onError={(e)=> {
+                        e.target.style.display = 'none';
+                        if(e.target.nextSibling) e.target.nextSibling.style.display = 'flex';
+                        }}
+                        />
+                        ) : null}
+
+                        <div className="w-16 h-16 rounded-lg border border-gray-200 bg-gray-50 flex items-center justify-center"
+                            style={{ display: exp.image_url ? 'none' : 'flex' }}>
+                            <Briefcase className="w-8 h-8 text-gray-400" />
+                        </div>
+                    </div>
+
+                    <div className="flex-grow">
+                        <div className="flex flex-col md:flex-row md:items-start justify-between gap-2">
+                            <div>
+                                <h3
+                                    className="text-lg font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                                    {exp.title}
+                                </h3>
+                                <div className="text-gray-600 font-medium">{exp.organization}</div>
+                            </div>
+
+                            <div className={`px-3 py-1 rounded-full text-xs font-bold border uppercase tracking-wider
+                                self-start md:self-center ${getBadgeColor(exp.experience_type)}`}>
+                                {exp.experience_type}
+                            </div>
+                        </div>
 
                         <div className="flex items-center gap-2 text-sm text-gray-400 mt-2">
                             <Calendar className="w-4 h-4" />
@@ -55,11 +83,6 @@ return (
                                 formatDate(exp.end_date)}
                             </span>
                         </div>
-                    </div>
-
-                    <div className={`px-3 py-1 rounded-full text-xs font-bold border uppercase tracking-wider self-start
-                        ${getBadgeColor(exp.experience_type)}`}>
-                        {exp.experience_type}
                     </div>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 border-t border-gray-50 pt-4">
